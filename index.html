@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">⏰ TimerPro</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <h1>🕐 Countdown Timer</h1>
+            <p class="subtitle">Set your target date and time</p>
+            
+            <div class="datetime-inputs">
+                <div class="input-group">
+                    <label for="targetDate">Target Date</label>
+                    <input type="date" id="targetDate" required>
+                </div>
+                <div class="input-group">
+                    <label for="targetTime">Target Time</label>
+                    <input type="time" id="targetTime" required>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button class="btn" id="startBtn">Start Timer</button>
+                <button class="btn stop" id="stopBtn">Stop Timer</button>
+                <button class="btn reset" id="resetBtn">Reset Timer</button>
+            </div>
+
+            <div class="timer-display" id="timerDisplay">
+                <div class="time-unit">
+                    <span class="time-value" id="days">00</span>
+                    <div class="time-label">Days</div>
+                </div>
+                <div class="time-unit">
+                    <span class="time-value" id="hours">00</span>
+                    <div class="time-label">Hours</div>
+                </div>
+                <div class="time-unit">
+                    <span class="time-value" id="minutes">00</span>
+                    <div class="time-label">Minutes</div>
+                </div>
+                <div class="time-unit">
+                    <span class="time-value" id="seconds">00</span>
+                    <div class="time-label">Seconds</div>
+                </div>
+            </div>
+
+            <div class="status" id="status">Set a target date and time to begin</div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-sections">
+                <div class="footer-section">
+                    <h3>About TimerPro</h3>
+                    <p>A modern, responsive countdown timer designed to help you track important events and deadlines with style and precision.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Features</h3>
+                    <a href="#">Responsive Design</a>
+                    <a href="#">Real-time Updates</a>
+                    <a href="#">Audio Notifications</a>
+                    <a href="#">Mobile Friendly</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Support</h3>
+                    <a href="#">Help Center</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <p>Follow us on social media for updates</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" title="Facebook">📘</a>
+                        <a href="#" class="social-link" title="Twitter">🐦</a>
+                        <a href="#" class="social-link" title="Instagram">📷</a>
+                        <a href="#" class="social-link" title="LinkedIn">💼</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TimerPro. All rights reserved. | Built with ❤️ for precise timing</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
