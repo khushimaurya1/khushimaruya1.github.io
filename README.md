@@ -2,6 +2,19 @@
 
 This project is a simple and interactive Countdown Timer web application built using HTML, CSS, and JavaScript. It allows users to set a target date and time, and then counts down to that moment, displaying the remaining days, hours, minutes, and seconds. When the countdown reaches zero, a notification sound is played and a message is displayed.
 
+---
+
+## 🌐 Live Demo
+
+🚀 **Check out the live website here:** [khushimaurya1.github.io](https://khushimaurya1.github.io/)
+
+- Experience the countdown timer in action directly in your browser.
+- No installation required—just open the link and start using the app!
+- Fully responsive and works on desktop and mobile devices.
+- Try setting your own countdown and see the smooth animations and audio notification when the timer ends.
+
+---
+
 ## Features
 
 - **Set Target Date and Time:** Users can select any future date and time as the countdown target.
